@@ -1,0 +1,38 @@
+{
+  "name": "toolnest-core",
+  "version": "1.0.0",
+  "description": "Reusable, dependency-free JS utility functions (finance, percentage, area/unit conversion, color, date, text, stats, grades) powering ToolNest's free browser tools.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "toolnest",
+    "calculator",
+    "converter",
+    "finance",
+    "percentage",
+    "utilities",
+    "javascript"
+  ],
+  "author": "ToolNest",
+  "license": "MIT",
+  "homepage": "https://toolnest.link",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saiftiwana/toolnest-core"
+  }
+}
